@@ -12,6 +12,5 @@
 
    - name: i want to install myvars02
      apt:
-      name: {{myvars02}}
+      name: "{{myvars02}}"
       state: present
-           
